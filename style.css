@@ -1,49 +1,100 @@
+body {
+  background-color: rgb(29, 29, 29);
+  margin-top: 200px;
+}
 .items {
-  /* border-width: 5px;
-  border-color: black;
-  border-style: solid;
-  background-color: black; */
   padding: 5px;
-  margin: 0px;
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .container {
-  border: 5px;
-  border-color: red;
   font-family: monospace;
-  font-weight: bold;
+  text-align: center;
 }
 
 .strikeThrough {
   text-decoration: line-through;
+  text-decoration-color: pink;
 }
 
-#title {
-  font-size: 50pt;
-  padding: 0px;
-  margin: 0px;
-}
-
-#list-item {
-  border-style: solid;
+.list-item {
+  border-style: none;
   border-color: black;
   background-color: rgb(155, 155, 155);
   list-style-type: none;
   padding: 15px;
   margin: 5px;
   font-size: 23pt;
+  font-weight: bold;
   color: rgb(44, 44, 44);
+  border-radius: 8px;
 }
 
-#delBtn {
+.delBtn {
   margin-left: 17px;
   border-style: solid;
-  border-color: black;
+  border-color: rgb(44, 44, 44);
   border-width: 3px;
   padding: 10px;
   background-color: pink;
-  border-radius: 10%;
-  font-weight: 785;
+  border-radius: 5px;
+  font-weight: 800;
   color: rgb(44, 44, 44);
   font-size: 11pt;
+  float: right;
+}
+
+#title {
+  text-align: center;
+  font-size: 75pt;
+  font-weight: 550;
+  padding: 5px 15px;
+  margin: 5px;
+  color: rgb(44, 44, 44);
+  background-color: rgb(155, 155, 155);
+  border-radius: 10px;
+}
+
+#todo-input {
+  border-width: 0px 0px 4px 0px;
+  border-color: rgb(155, 155, 155);
+  font-size: 20pt;
+  background-color: rgb(29, 29, 29);
+  color: pink;
+  font-weight: bold;
+  font-family: monospace;
+  height: 30px;
+  width: 500px;
+}
+
+#input-btn {
+  font-size: xx-large;
+  color: rgb(44, 44, 44);
+  font-family: monospace;
+  font-weight: bold;
+  border-style: hidden;
+  background-color: pink;
+  border-radius: 5px;
+  padding: 5px 10px 5px 8px;
+  text-align: center;
+}
+
+#clear-btn {
+  font-size: xx-large;
+  color: rgb(44, 44, 44);
+  font-family: monospace;
+  font-weight: bold;
+  border-style: hidden;
+  background-color: pink;
+  border-radius: 5px;
+  padding: 5px 10px 5px 8px;
+  text-align: center;
+}
+
+*:focus {
+  outline: none;
 }
