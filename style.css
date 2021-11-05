@@ -1,11 +1,26 @@
 body {
   background-color: rgb(29, 29, 29);
-  margin-top: 200px;
+  margin-top: 150px;
 }
+
+.container {
+  font-family: monospace;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container > .controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
 .items {
   padding: 0px;
   margin: 10px;
-  /* width: 100%; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -13,9 +28,21 @@ body {
   align-items: center;
 }
 
-.container {
-  font-family: monospace;
-  text-align: center;
+.list-item {
+  color: rgb(44, 44, 44);
+  background-color: rgb(155, 155, 155);
+  border-style: none;
+  border-color: black;
+  list-style-type: none;
+  font-size: 23pt;
+  font-weight: bold;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: 15px;
+  margin: 5px;
 }
 
 .strikeThrough {
@@ -23,81 +50,78 @@ body {
   text-decoration-color: pink;
 }
 
-.list-item {
-  border-style: none;
-  border-color: black;
-  background-color: rgb(155, 155, 155);
-  list-style-type: none;
-  padding: 20px 15px 15px 15px;
-  margin: 5px;
-  font-size: 23pt;
-  font-weight: bold;
-  color: rgb(44, 44, 44);
-  border-radius: 8px;
-}
-
 .delBtn {
-  margin-left: 17px;
+  color: rgb(44, 44, 44);
+  background-color: pink;
   border-style: solid;
   border-color: rgb(44, 44, 44);
   border-width: 3px;
-  padding: 10px;
-  background-color: pink;
   border-radius: 5px;
   font-weight: 800;
-  color: rgb(44, 44, 44);
   font-size: 11pt;
+
+  display: flex;
+  padding: 10px;
   float: right;
+  margin-left: 17px;
 }
 
 #title {
-  text-align: center;
-  font-size: 75pt;
-  font-weight: 550;
-  padding: 5px 15px;
-  margin: 5px;
   color: rgb(44, 44, 44);
   background-color: rgb(155, 155, 155);
+  font-size: 75pt;
+  font-weight: 550;
   border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-self: center;
+  padding: 5px 15px;
+  margin-bottom: 60px;
 }
 
 #todo-input {
   border-width: 0px 0px 4px 0px;
   border-color: rgb(155, 155, 155);
-  font-size: 20pt;
   background-color: rgb(29, 29, 29);
   color: pink;
+  font-size: 20pt;
   font-weight: bold;
   font-family: monospace;
   height: 35px;
   width: 500px;
+  caret-color: pink;
 }
 
 #input-btn {
-  font-size: xx-large;
   color: rgb(44, 44, 44);
+  background-color: pink;
   font-family: monospace;
   font-weight: bold;
   border-style: hidden;
-  background-color: pink;
   border-radius: 5px;
   padding: 5px 10px;
   text-align: center;
-  margin-left: 3px;
+
+  display: flex;
+  margin-left: 10px;
   font-size: 20pt;
 }
 
 #clear-btn {
-  font-size: xx-large;
   color: rgb(44, 44, 44);
+  background-color: pink;
   font-family: monospace;
   font-weight: bold;
   border-style: hidden;
-  background-color: pink;
   border-radius: 5px;
   padding: 5px 10px;
   text-align: center;
   font-size: 20pt;
+
+  display: flex;
+  margin-left: 5px;
 }
 
 *:focus {
