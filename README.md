@@ -1,4 +1,4 @@
-# Project-3-TodoApp
+# Clean Todo Application (todos~)
 
 # Overview
 - Simple Todo Application built entirely with HTML, CSS, and Javascript.
