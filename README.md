@@ -19,4 +19,4 @@ This project helped me with understanding event listeners and how useful they ar
   - Utilized flexbox properties for clean and efficient element organization
 
 # Author
-Brandon Chuck | Full Stack developer | [LinkedIn](https://www.linkedin.com/in/brandonchuck/)
+Brandon Chuck | Full Stack Developer | [LinkedIn](https://www.linkedin.com/in/brandonchuck/)
