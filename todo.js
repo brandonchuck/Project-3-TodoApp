@@ -10,7 +10,7 @@ function displayTodo(){
   const userInput = document.querySelector('.user-input');  
   const userInputValue = userInput.value;
 
-  if (userInputValue == ''){
+  if (userInputValue === ''){
     alert('Enter a todo please!!!');
     return;
   } 
