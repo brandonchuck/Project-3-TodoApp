@@ -2,7 +2,7 @@
 
 # Overview
 - Simple Todo Application built entirely with HTML, CSS, and Javascript.
-- Webpage provides input field for displaying todos as well as "completion" functionality.
+- Application provides input field for displaying todos as well as "completion" functionality.
 
 # Website
 - See it [here](https://brandonchuck.github.io/Project-3-TodoApp/) on Github Pages! 
