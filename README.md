@@ -5,7 +5,7 @@
 - Application provides input field for displaying todos as well as "completion" functionality.
 
 # Website
-- See it [here](https://brandonchuck.github.io/Project-3-TodoApp/) on Github Pages! 
+- See it [here](https://brandonchuck.github.io/todos-/) on Github Pages! 
 
 # Preview
 
